@@ -50,6 +50,7 @@ public class JavaMail {
         } catch(Exception ex){
             System.out.println("Error");
             //Logger.getLogger(JavaMail.class.getName().log(Level.SEVERE, null, ex));
+            // Plugin setup not complete
         }
         return null;
     }
